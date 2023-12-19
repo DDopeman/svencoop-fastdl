@@ -1,0 +1,104 @@
+//========================================
+//
+//	This file lists all plugins that are loaded by the game
+//	Plugins use Angelscript
+//
+//========================================
+"plugins"
+{
+	"plugin"
+	{
+		"name" "PlayerManagement"
+		"script" "admin/PlayerManagement"
+		"concommandns" "plrmgr"
+	}
+
+//	"plugin"
+//	{
+//		"name" "EntityManager"
+//		"script" "EntityManager"
+//		"concommandns" "entmngr"
+//	}
+//
+//	"plugin"
+//	{
+//		"name" "Teleport"
+//		"script" "Teleport"
+//	}
+//
+//	"plugin"
+//	{
+//		"name" "Vox"
+//		"script" "Vox"
+//	}
+"plugin"
+    {
+        "name" "AntiBlock"
+        "script" "AntiBlock"
+        "concommandns" "antiblock"
+    }
+
+    "plugin"
+    {
+        "name" "AntiRush"
+        "script" "AntiRush"
+    }
+
+//    "plugin"
+//    {
+//        "name" "ChatSounds"
+//        "script" "ChatSounds/ChatSounds"
+//    }
+//
+	"plugin"
+	{
+		"name" "ClassicModeDeluxe"
+		"script" "ClassicModeDeluxe/ClassicModeDeluxe"
+		"concommandns" "cm"
+	}
+
+        "plugin"
+        {
+            "name" "ForceSurvival"
+            "script" "ForceSurvival"
+        }
+
+    "plugin"
+        {
+            "name" "AFBase"
+            "script" "AFBase"
+        }
+
+    "plugin"
+        {
+            "name" "AFBaseExpansions"
+            "script" "AFBaseExpansions"
+        }
+
+    "plugin"
+        {
+            "name" "SpeedoMeter"
+            "script" "SpeedoMeter"
+        }
+    "plugin"
+        {
+            "name" "Nightvision"
+            "script" "Nightvision"
+        }
+
+//    "plugin"
+//        {
+//            "name" "simpletrail"
+//            "script" "AFBaseExpansions/simpletrail"
+//        }
+
+//    "plugin"
+//        {
+//            "name" "hats"
+//            "script" "AFBaseExpansions/hats"
+//        }
+
+
+}
+
+
